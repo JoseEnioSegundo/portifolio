@@ -13,9 +13,11 @@
         <p>
           Não entre em contato.
         </p>
+        <section class="fofo"><img src="/dormin.jpg" alt="Imagem de um dashboard" /></section>
+
         <p>
           <button class="whatsapp">
-            <span class="fa-brands fa-whatsapp"></span> 47 996697913
+            <span class="fa-brands fa-whatsapp"></span> 47 99669-7913
           </button>
         </p>
       </div>
@@ -105,6 +107,13 @@ section.works ul li p.info span {
 
 section.works ul {
   border-bottom: 1px solid #e0e0e0;
+}
+section.fofo {
+  margin: 20px 0;
+}
+section.fofo img {
+  width: 200px;
+  border-radius: 50%;
 }
 </style>
 

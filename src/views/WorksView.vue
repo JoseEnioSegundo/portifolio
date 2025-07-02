@@ -1,57 +1,10 @@
-<script setup>
-// import TheWelcome from '../components/TheWelcome.vue' // Removido pois não está sendo usado
-</script>
-
 <template>
   <main>
-    <section class="banner">
-      <div class="imagem">
-        <img src="/image5.png" alt="Foto do John" />
-      </div>
-      <div class="texto">
-        <h1>Hi, I am John, Creative Technologist</h1>
-        <p>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-          consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-        </p>
-        <div>
-          <section>
-            <p><button>Download Resume</button></p>
-          </section>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="posts">
-      <h2>Recent posts</h2>
-      <ul>
-        <li>
-          <h3>Making a design system from scratch</h3>
-          <p class="data">12 Feb 2020 | Design, Pattern</p>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-            officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
-            amet.
-          </p>
-        </li>
-        <li>
-          <h3>Creating pixel perfect icons in Figma</h3>
-          <p class="data">12 Feb 2020 | Design, Pattern</p>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-            officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
-            amet.
-          </p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="works">
+     <section class="works">
       <h2>Featured works</h2>
       <ul>
         <li>
-          <p><img src="/image3.png" alt="Imagem de um dashboard" /></p>
+          <p><img src="/image1.png" alt="Imagem de um dashboard" /></p>
           <h3>Designing Dashboards</h3>
           <p class="info"><span>2020</span> Dashboards</p>
           <p>
@@ -61,7 +14,7 @@
           </p>
         </li>
         <li>
-          <p><img src="/image4.png" alt="Vibrant Portraits" /></p>
+          <p><img src="/image2.png" alt="Vibrant Portraits" /></p>
           <h3>Vibrant Portraits of 2020</h3>
           <p class="info"><span>2018</span> Illustration</p>
           <p>
@@ -72,9 +25,8 @@
         </li>
       </ul>
     </section>
-  </main>
+    </main>
 </template>
-
 <style scoped>
 /* ============================================================================================
 ESPECÍFICO
@@ -215,47 +167,4 @@ TELA PC
     border-bottom: none;
   }
 }
-
-
-  section.banner {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: left;
-    padding: 5vw 10vw;
-  }
-
-  section.banner .texto {
-    margin-right: 7vw;
-  }
-
-  section.posts,
-  section.works {
-    padding: 5vw 10vw;
-  }
-
-  section.posts ul,
-  section.works ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  section.posts ul li {
-    padding: 2%;
-  }
-
-  section.posts ul li,
-  section.works ul li {
-    width: 45%;
-  }
-
-  section.posts ul li p.data {
-    margin: 20px 0;
-  }
-
-  section.works ul {
-    border-bottom: none;
-  }
-
 </style>
-
-
